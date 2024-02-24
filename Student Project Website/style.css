@@ -1,0 +1,133 @@
+* {
+    text-decoration-color:antiquewhite 
+} 
+/* added header sections to allow the changes below, and flex column to make sure that the page goes down */
+.header-sectional {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    clear: both;
+    flex-direction: column;
+    background-color: rgb(11, 147, 156);
+    border-radius: 25%;
+    font-size:x-large;
+    text-shadow:0 0 3px #FF0000, 0 0 5px #4508ed;
+}
+/* added flex to make sure that the header fits within the boundaries for any device*/
+header{
+    display: flex;
+}
+/* made sure that the navigation links went in a row instead of column, centered/justified for any device*/
+.nav {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    clear: both;
+    font-size: larger;
+}
+/* Made sure it was centered and column, starting from text, and ends with photo, and decorative features */
+.bio {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 3%;
+    border-top-right-radius: 3%;
+    background-color: darkcyan;
+}  
+/* for main body, made it a column to go down and fill the width of the page */
+.sectional {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-style:dotted;
+    text-align: center;
+    border-width: 1px;
+}
+/* Again, made it a column, but also wrapped it to make it fit within any device screen */
+.Samples-of-work {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: chocolate;
+    border-radius: 20%;
+}
+/* For photos section, gave boundaries for the photos to fit within */
+.Boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-style: dashed;
+    border-width: 1px;
+    font-size: larger;
+    font-weight: bolder;
+}
+/* First row of YouTube videos, bound within a row and displayed to ensure padding */
+.SamplesOne {
+    display:inline-block;
+    flex-direction: row;
+    border-style: dashed;
+    border-width: 1px;
+    text-align: center;
+    justify-content: left;
+    font-size: large;
+    font-weight: bolder;
+}
+/* Same as above */
+.SamplesTwo {
+    display:inline-block; 
+    flex-direction: row;
+    border-style: dashed;
+    border-width: 1px;
+    text-align: center;
+    justify-content: left;
+    font-size: large;
+    font-weight: bolder;
+}
+/* Title of the footer, distinguish it from the footer itself */
+.footer-sectional {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+/* Formatted the text-input boxes to be in the middle, and allow to be filled in */
+.text-input {
+    font-family: Arial, Helvetica, sans-serif;
+    text-overflow: ellipsis;
+    flex-wrap: wrap;
+    
+}
+/* Make the entire page have the same background color, and stay in a column */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    margin: 0%;
+}
+/* because the YouTube videos stay in a column, 
+I had to wrap them in a new class that also created rows for them to be in  */
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: chocolate;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+/* Formatted the footer section text body to put it in the middle */
+footer {
+    text-align: center;
+    font-size: large;
+}
